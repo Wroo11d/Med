@@ -1,0 +1,3 @@
+med.patches.insert_roles
+med.patches.insert_receptionist_permissions
+med.patches.insert_analyst_permissions

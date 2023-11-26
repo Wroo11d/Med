@@ -1,0 +1,148 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{patient_name}-{test}-DR-{doctor}-{#####}",
+ "creation": "2023-11-24 21:05:42.370001",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "patient_name",
+  "age",
+  "test",
+  "column_break_gg5zn",
+  "phone_number",
+  "address",
+  "doctor",
+  "section_break_beevy",
+  "total_price",
+  "discount",
+  "column_break_rvnl6",
+  "discount_amount",
+  "section_break_v1bq1",
+  "net_total"
+ ],
+ "fields": [
+  {
+   "fieldname": "patient_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Patient Name",
+   "options": "Patient",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "test",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Test",
+   "options": "Tests"
+  },
+  {
+   "fieldname": "column_break_gg5zn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address",
+   "read_only": 1
+  },
+  {
+   "fieldname": "doctor",
+   "fieldtype": "Link",
+   "label": "Doctor",
+   "options": "Doctors",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_beevy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_price",
+   "fieldtype": "Int",
+   "label": "Total Price",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "discount",
+   "fieldtype": "Check",
+   "label": "Discount",
+   "options": "0"
+  },
+  {
+   "fieldname": "column_break_rvnl6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "discount_amount",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Discount Amount"
+  },
+  {
+   "fieldname": "section_break_v1bq1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "net_total",
+   "fieldtype": "Int",
+   "label": "Net Total",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-26 21:58:00.942867",
+ "modified_by": "Administrator",
+ "module": "Medical",
+ "name": "Laboratory",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Analyst",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
