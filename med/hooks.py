@@ -12,7 +12,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/med/css/med.css"
-app_include_js = "/assets/med/js/role_routing.js"
+app_include_js = "/assets/med/js/window_route.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/med/css/med.css"
@@ -226,6 +226,17 @@ fixtures = [
     },
     {
         "dt": "Property Setter", "filters": [["module", "=", "Medical"]]
+    },
+    {
+        "dt": "Workspace", "filters": [["module", "=", "Medical"]]
+    },
+    {
+        "dt": "Dashboard Chart", "filters": [["module", "=", "Medical"]]
+    },
+    {
+        "dt": "Number Card", "filters": [["module", "=", "Medical"]]
     }
+    
+
 
 ]
