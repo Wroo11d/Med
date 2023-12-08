@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-08 20:31:48.576755",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "test",
+  "price"
+ ],
+ "fields": [
+  {
+   "fieldname": "test",
+   "fieldtype": "Link",
+   "label": "Test",
+   "options": "Tests"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Int",
+   "label": "Price",
+   "non_negative": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-08 20:34:37.661273",
+ "modified_by": "Administrator",
+ "module": "Medical",
+ "name": "Test",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
