@@ -235,7 +235,10 @@ fixtures = [
     },
     {
         "dt": "Number Card", "filters": [["module", "=", "Medical"]]
-    }
+    },
+    {
+        "dt": "Custom Field", "filters": [["module", "=", "Medical"]]
+    },
     
 
 
