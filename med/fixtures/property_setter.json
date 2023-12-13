@@ -286,5 +286,37 @@
   "property_type": "Check",
   "row_name": null,
   "value": "0"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Laboratory",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "doctor",
+  "is_system_generated": 0,
+  "modified": "2023-12-13 14:11:51.531163",
+  "module": "Medical",
+  "name": "Laboratory-doctor-reqd",
+  "property": "reqd",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "0"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Laboratory",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "doctor",
+  "is_system_generated": 0,
+  "modified": "2023-12-13 14:12:15.954743",
+  "module": "Medical",
+  "name": "Laboratory-doctor-hidden",
+  "property": "hidden",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "1"
  }
 ]

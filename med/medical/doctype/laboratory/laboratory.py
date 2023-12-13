@@ -47,6 +47,9 @@ class Laboratory(model.document.Document):
 		for rowj in self.get("custom_tests"):
 			invoice.append("custom_test", {"test": rowj.test,
                                       "price": rowj.price,})
+		for rowi in self.get("custom_doctors"):
+			invoice.append("custom_doctors", {"doctor": rowi.doctor,
+                                      })
 		"""invoice.discount = self.discount
 		invoice.price = self.total_price
 		invoice.net_total = self.net_total"""

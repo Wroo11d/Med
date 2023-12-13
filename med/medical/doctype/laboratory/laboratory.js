@@ -26,8 +26,11 @@ frappe.ui.form.on('Laboratory', {
             'price': row.price
         }));
 
-        frappe.db.insert({
+        let custom_doctors = frm.doc.custom_doctors.map(row => ({
+            'doctor': row.doctor,
+        }));
 
+        frappe.db.insert({
             'doctype': 'Invoice',
             'doctor': frm.doc.doctor,
             'patient': frm.doc.patient_name,   
@@ -36,7 +39,8 @@ frappe.ui.form.on('Laboratory', {
             'discount': frm.doc.discount,   // Assuming this is the link to the original document
             'price': frm.doc.total_price,      // Replace 'party' with the fieldname that holds the customer
             'net_total': frm.doc.net_total,
-            'custom_test':custom_tests
+            'custom_test':custom_tests,
+            'custom_doctors':custom_doctors
             }).then(doc => {
                 const name = doc.name;
             const host = window.location.host;
