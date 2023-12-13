@@ -18,26 +18,39 @@ class Laboratory(model.document.Document):
 		current_datetime = frappe.utils.now_datetime()
 		current_time = current_datetime.time()
 		patient = frappe.get_doc("Patient", self.patient_name)
-		test = frappe.get_doc("Tests", self.test)
+		#test = frappe.get_doc("Tests", self.test)
 		#frappe.msgprint(f"patient{patient} and test is {test}")
 		self.age = patient.age
 		self.phone_number = patient.phone_number
 		self.address = patient.address
-		self.total_price = test.price
 		self.custom_date = frappe.utils.today()
-		self.net_total = test.price
+		#self.total_price = test.price
+		for row in self.get("custom_tests"):
+			test = frappe.get_doc("Tests", row.test)
+			row.price=test.price
+		total=0
+		for row in self.get("custom_tests"):
+			total = total + row.price
+		
+		self.total_price = total
+		self.net_total= total
+		print(self.net_total)
+		#self.net_total = test.price
 		if self.discount == 1:
-			self.net_total = test.price - self.discount_amount
-
+			self.net_total = self.total_price - self.discount_amount
+		
+		#self.append("custom_tests", {"price": "sister"})
 		invoice = frappe.new_doc("Invoice")
-		invoice.patient = self.patient_name
+		"""invoice.patient = self.patient_name
 		invoice.date = self.custom_date
-		invoice.time = current_time
-		invoice.test = self.test
-		invoice.discount = self.discount
+		invoice.time = current_time"""
+		for rowj in self.get("custom_tests"):
+			invoice.append("custom_test", {"test": rowj.test,
+                                      "price": rowj.price,})
+		"""invoice.discount = self.discount
 		invoice.price = self.total_price
-		invoice.net_total = self.net_total
-		invoice.doctor = self.doctor
+		invoice.net_total = self.net_total"""
+		#invoice.doctor = self.doctor
 		invoice.insert()
 		invoice.save()
 """			self.set_discount_amount_read_only(1)  # Make discount_amount field read-only

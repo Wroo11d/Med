@@ -19,3 +19,56 @@ frappe.ui.form.on('Laboratory', {
         }
     }
 });
+frappe.ui.form.on('Laboratory', {
+    after_save: function(frm) {
+        let custom_tests = frm.doc.custom_tests.map(row => ({
+            'test': row.test,
+            'price': row.price
+        }));
+
+        frappe.db.insert({
+
+            'doctype': 'Invoice',
+            'doctor': frm.doc.doctor,
+            'patient': frm.doc.patient_name,   
+            'date': frm.doc.custom_date,      
+            'time': frm.doc.current_time,  
+            'discount': frm.doc.discount,   // Assuming this is the link to the original document
+            'price': frm.doc.total_price,      // Replace 'party' with the fieldname that holds the customer
+            'net_total': frm.doc.net_total,
+            'custom_test':custom_tests
+            }).then(doc => {
+                const name = doc.name;
+            const host = window.location.host;
+            const protocol = window.location.protocol;
+            window.location.href =`${protocol}//${host}/app/invoice/${name}`; 
+    });
+
+}});
+    /*for (let row of frm.doc.custom_tests){
+        frm.add_child('custom_test',{
+            test:row.test,
+            price: row.price})};*/
+/*frappe.ui.form.on('Laboratory', {
+    after_save: function(frm) {
+    frappe.route_options = {
+        'patient': frm.doc.patient_name,   
+        'date': frm.doc.custom_date,      
+        'time': frm.doc.current_time,  
+        'discount': frm.doc.discount,   // Assuming this is the link to the original document
+        'price': frm.doc.total_price,      // Replace 'party' with the fieldname that holds the customer
+        //'net_total': frm.doc.net_total, 
+    }
+        
+        then(doc => {
+                
+                const host = window.location.host;
+                const protocol = window.location.protocol;
+                window.location.href =`${protocol}//${host}/app/invoice/${doc.name}`;
+            });
+        }});*/
+
+/*for (let row of frm.doc.custom_tests){
+        doc.add_child('custom_test',{
+            test:row.test,
+            price: row.price}) */
