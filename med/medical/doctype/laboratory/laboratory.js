@@ -32,6 +32,7 @@ frappe.ui.form.on('Laboratory', {
 
         frappe.db.insert({
             'doctype': 'Invoice',
+            //'type':'Laboratory',
             'doctor': frm.doc.doctor,
             'patient': frm.doc.patient_name,   
             'date': frm.doc.custom_date,      
@@ -42,6 +43,7 @@ frappe.ui.form.on('Laboratory', {
             'custom_test':custom_tests,
             'custom_doctors':custom_doctors
             }).then(doc => {
+
                 const name = doc.name;
             const host = window.location.host;
             const protocol = window.location.protocol;

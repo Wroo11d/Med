@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{patient}-{#####}",
+ "creation": "2023-12-15 18:22:59.291943",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "patient",
+  "column_break_ybgdu",
+  "doctor",
+  "section_break_kgxoy",
+  "procedure"
+ ],
+ "fields": [
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Patient",
+   "options": "Patient",
+   "reqd": 1
+  },
+  {
+   "fieldname": "doctor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Doctor",
+   "options": "Doctors",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ybgdu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "procedure",
+   "fieldtype": "Table",
+   "label": "Procedure",
+   "options": "Dental Procedure",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_kgxoy",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-15 18:25:59.531575",
+ "modified_by": "Administrator",
+ "module": "Medical",
+ "name": "Dental",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

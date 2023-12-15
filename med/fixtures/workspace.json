@@ -16,7 +16,7 @@
     "parenttype": "Workspace"
    }
   ],
-  "content": "[{\"id\":\"MEDEm7Wisr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboards</span>\",\"col\":12}},{\"id\":\"e3VIFlGwsw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"All Patients\",\"col\":3}},{\"id\":\"bj0dcSPBq9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"All Doctors\",\"col\":3}},{\"id\":\"wnBpLjK7r4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Profit Last Month\",\"col\":3}},{\"id\":\"L4PnKlNvC0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Profit This Month\",\"col\":3}},{\"id\":\"n4Ywi5A5Kz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Statistics<br></b></span>\",\"col\":12}},{\"id\":\"xv_Z6P3HGL\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Number Of Patients\",\"col\":6}},{\"id\":\"AuOPhVTcHi\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Profit And Revenue\",\"col\":6}},{\"id\":\"mh6Wc22oQc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick List <br></b></span>\",\"col\":12}},{\"id\":\"iHExlinvad\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Laboratory\",\"col\":4}},{\"id\":\"QMVfNBR1sz\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Patients\",\"col\":4}},{\"id\":\"FmXI82mGfQ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Doctors\",\"col\":4}}]",
+  "content": "[{\"id\":\"oS9z2WMPy6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"uDUobP5qFL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Laboratory\",\"col\":3}},{\"id\":\"eBKgrG1hHc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Patient\",\"col\":3}},{\"id\":\"QeHFsgBlDy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Invoice\",\"col\":3}},{\"id\":\"EgPSY361FQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Doctors\",\"col\":3}},{\"id\":\"MEDEm7Wisr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboards</span>\",\"col\":12}},{\"id\":\"e3VIFlGwsw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"All Patients\",\"col\":3}},{\"id\":\"bj0dcSPBq9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"All Doctors\",\"col\":3}},{\"id\":\"wnBpLjK7r4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Profit Last Month\",\"col\":3}},{\"id\":\"L4PnKlNvC0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Profit This Month\",\"col\":3}},{\"id\":\"n4Ywi5A5Kz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Statistics<br></b></span>\",\"col\":12}},{\"id\":\"xv_Z6P3HGL\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Number Of Patients\",\"col\":6}},{\"id\":\"AuOPhVTcHi\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Profit And Revenue\",\"col\":6}},{\"id\":\"mh6Wc22oQc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick List <br></b></span>\",\"col\":12}},{\"id\":\"iHExlinvad\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Laboratory\",\"col\":4}},{\"id\":\"QMVfNBR1sz\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Patients\",\"col\":4}},{\"id\":\"FmXI82mGfQ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Doctors\",\"col\":4}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -26,7 +26,7 @@
   "is_hidden": 0,
   "label": "Dashboards",
   "links": [],
-  "modified": "2023-12-05 21:25:52.985090",
+  "modified": "2023-12-15 14:29:07.848340",
   "module": "Medical",
   "name": "Dashboards",
   "number_cards": [
@@ -90,7 +90,72 @@
   "restrict_to_domain": null,
   "roles": [],
   "sequence_id": 1.0,
-  "shortcuts": [],
+  "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Laboratory",
+    "link_to": "Laboratory",
+    "parent": "Dashboards",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Green",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Patient",
+    "link_to": "Patient",
+    "parent": "Dashboards",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Orange",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Invoice",
+    "link_to": "Invoice",
+    "parent": "Dashboards",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Yellow",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Doctors",
+    "link_to": "Doctors",
+    "parent": "Dashboards",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   }
+  ],
   "title": "Dashboards"
  }
 ]
