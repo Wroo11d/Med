@@ -1,0 +1,33 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{nurse}-{#####}",
+ "creation": "2023-12-15 20:28:09.235382",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nurse"
+ ],
+ "fields": [
+  {
+   "fieldname": "nurse",
+   "fieldtype": "Link",
+   "label": "Nurse",
+   "options": "Nurse"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-15 20:30:18.127242",
+ "modified_by": "Administrator",
+ "module": "Medical",
+ "name": "Nurses",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

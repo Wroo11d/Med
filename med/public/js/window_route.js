@@ -15,6 +15,16 @@ $(document).on("startup", function () {
         console.log(currentUserRoles[0])  
         frappe.set_route("patient");
     }
+    else if (role === "Dentist" && email !='Administrator'){
+        console.log(currentUserRoles)  
+        console.log(currentUserRoles[0])  
+        frappe.set_route("dental");
+    }
+    else if (role === "Emergency" && email !='Administrator'){
+        console.log(currentUserRoles)  
+        console.log(currentUserRoles[0])  
+        frappe.set_route("emergency");
+    }
     else if (email === 'Administrator'){
         frappe.set_route("dashboards");
     }
