@@ -1,7 +1,7 @@
 import frappe
 
 def execute():
-	roles = ['Receptionist', 'Analyst','Emergency', 'Dentist']
+	roles = ['Receptionist', 'Analyst','Emergency', 'Dentist','Myopic']
 	for role in roles:
 		if not frappe.db.exists('Role', role):
 			role_doc = frappe.new_doc('Role')
