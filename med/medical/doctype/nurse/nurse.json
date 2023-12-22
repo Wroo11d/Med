@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{name}-{#####}",
+ "autoname": "format:{name1}-{#####}",
  "creation": "2023-12-15 20:24:25.395497",
  "default_view": "List",
  "doctype": "DocType",
@@ -21,7 +21,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-15 21:17:16.463143",
+ "modified": "2023-12-23 00:09:11.397539",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Nurse",

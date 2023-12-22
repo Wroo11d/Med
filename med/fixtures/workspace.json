@@ -19,7 +19,7 @@
   "is_hidden": 0,
   "label": "Laboratory Dashboard",
   "links": [],
-  "modified": "2023-12-22 23:39:05.655495",
+  "modified": "2023-12-23 00:09:42.366169",
   "module": "Medical",
   "name": "Laboratory Dashboard",
   "number_cards": [],
@@ -83,8 +83,16 @@
   "title": "Laboratory Dashboard"
  },
  {
-  "charts": [],
-  "content": "[{\"id\":\"z7WOeww66V\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Emergency Dashboard</span>\",\"col\":12}}]",
+  "charts": [
+   {
+    "chart_name": "Emergency",
+    "label": "\u0627\u0631\u0628\u0627\u062d \u0627\u0644\u0637\u0648\u0627\u0631\u0626",
+    "parent": "Emergency Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   }
+  ],
+  "content": "[{\"id\":\"z7WOeww66V\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Emergency Dashboard</span>\",\"col\":12}},{\"id\":\"exkG7GL9VL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0637\u0648\u0627\u0631\u0626\",\"col\":3}},{\"id\":\"QRGuTrZM4v\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u062c\u0631\u0627\u0621\u0627\u062a\",\"col\":3}},{\"id\":\"VAvcE1cGuI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u0645\u0631\u0636 \u0627\u0644\u0645\u0633\u0627\u0639\u062f\",\"col\":3}},{\"id\":\"jXbvfT5hnh\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4L5Z_ybYoD\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0627\u0631\u0628\u0627\u062d \u0627\u0644\u0637\u0648\u0627\u0631\u0626\",\"col\":12}},{\"id\":\"AWbmlhzIzO\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\" \u0627\u0644\u0637\u0648\u0627\u0631\u0626\",\"col\":4}},{\"id\":\"CIE8yl450r\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0641\u0648\u0627\u062a\u064a\u0631\",\"col\":4}},{\"id\":\"T_C6UWehdr\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0645\u0645\u0631\u0636 \u0627\u0644\u0645\u0633\u0627\u0639\u062f\",\"col\":4}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -94,17 +102,91 @@
   "is_hidden": 0,
   "label": "Emergency Dashboard",
   "links": [],
-  "modified": "2023-12-22 23:35:48.585399",
+  "modified": "2023-12-23 00:09:42.604920",
   "module": "Medical",
   "name": "Emergency Dashboard",
   "number_cards": [],
   "parent_page": "",
   "public": 1,
-  "quick_lists": [],
+  "quick_lists": [
+   {
+    "document_type": "Invoice",
+    "label": "\u0627\u0644\u0641\u0648\u0627\u062a\u064a\u0631",
+    "parent": "Emergency Dashboard",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[[\"Emergency Procedure\",\"procedure\",\"is\",\"set\",false]]"
+   },
+   {
+    "document_type": "Emergency",
+    "label": " \u0627\u0644\u0637\u0648\u0627\u0631\u0626",
+    "parent": "Emergency Dashboard",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   },
+   {
+    "document_type": "Nurse",
+    "label": "\u0627\u0644\u0645\u0645\u0631\u0636 \u0627\u0644\u0645\u0633\u0627\u0639\u062f",
+    "parent": "Emergency Dashboard",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   }
+  ],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 22.0,
-  "shortcuts": [],
+  "sequence_id": 21.0,
+  "shortcuts": [
+   {
+    "color": "Orange",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "\u0627\u0644\u0645\u0645\u0631\u0636 \u0627\u0644\u0645\u0633\u0627\u0639\u062f",
+    "link_to": "Nurse",
+    "parent": "Emergency Dashboard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "\u0627\u0644\u0637\u0648\u0627\u0631\u0626",
+    "link_to": "Emergency",
+    "parent": "Emergency Dashboard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "\u0627\u0644\u0627\u062c\u0631\u0627\u0621\u0627\u062a",
+    "link_to": "Emergency Procedure Prices",
+    "parent": "Emergency Dashboard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   }
+  ],
   "title": "Emergency Dashboard"
  },
  {
@@ -127,7 +209,7 @@
   "is_hidden": 0,
   "label": "Dental Dashboard",
   "links": [],
-  "modified": "2023-12-22 23:39:48.441665",
+  "modified": "2023-12-23 00:09:42.452428",
   "module": "Medical",
   "name": "Dental Dashboard",
   "number_cards": [],
@@ -208,7 +290,7 @@
     "parenttype": "Workspace"
    }
   ],
-  "content": "[{\"id\":\"XP2gn0Y_5o\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">OCT dashboard</span>\",\"col\":12}},{\"id\":\"WeU-d_-2nh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0639\u064a\u0648\u0646\",\"col\":3}},{\"id\":\"qdTptVx1pk\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"c9QLb49agZ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0627\u0631\u0628\u0627\u062d \u0627\u0644\u0639\u064a\u0648\u0646\",\"col\":12}},{\"id\":\"4roJpeOsxl\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"FhMptMi0XD\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0641\u062d\u0635 \u0627\u0644\u0639\u064a\u0648\u0646\",\"col\":6}},{\"id\":\"e27H3yzTsJ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0641\u0648\u0627\u062a\u064a\u0631\",\"col\":6}}]",
+  "content": "[{\"id\":\"XP2gn0Y_5o\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">OCT dashboard</span>\",\"col\":12}},{\"id\":\"WeU-d_-2nh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0639\u064a\u0648\u0646\",\"col\":3}},{\"id\":\"YHX7XVPi6X\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u0645\u0631\u0636 \u0627\u0644\u0645\u0633\u0627\u0639\u062f\",\"col\":3}},{\"id\":\"3fwMFXLWx9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u062c\u0631\u0627\u0621\u0627\u062a\",\"col\":3}},{\"id\":\"qdTptVx1pk\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"c9QLb49agZ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0627\u0631\u0628\u0627\u062d \u0627\u0644\u0639\u064a\u0648\u0646\",\"col\":12}},{\"id\":\"4roJpeOsxl\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"FhMptMi0XD\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0641\u062d\u0635 \u0627\u0644\u0639\u064a\u0648\u0646\",\"col\":6}},{\"id\":\"e27H3yzTsJ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0641\u0648\u0627\u062a\u064a\u0631\",\"col\":6}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -218,7 +300,7 @@
   "is_hidden": 0,
   "label": "OCT Dashboard",
   "links": [],
-  "modified": "2023-12-22 23:35:47.633639",
+  "modified": "2023-12-23 00:09:42.528989",
   "module": "Medical",
   "name": "OCT Dashboard",
   "number_cards": [],
@@ -261,6 +343,38 @@
     "stats_filter": "[]",
     "type": "DocType",
     "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "\u0627\u0644\u0645\u0645\u0631\u0636 \u0627\u0644\u0645\u0633\u0627\u0639\u062f",
+    "link_to": "Nurse",
+    "parent": "OCT Dashboard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "\u0627\u0644\u0627\u062c\u0631\u0627\u0621\u0627\u062a",
+    "link_to": "Dental Procedure Prices",
+    "parent": "OCT Dashboard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
    }
   ],
   "title": "OCT Dashboard"
@@ -292,7 +406,7 @@
   "is_hidden": 0,
   "label": "Dashboards",
   "links": [],
-  "modified": "2023-12-22 23:35:42.082218",
+  "modified": "2023-12-23 00:09:39.329617",
   "module": "Medical",
   "name": "Dashboards",
   "number_cards": [
