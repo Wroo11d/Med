@@ -16,15 +16,14 @@
    "fieldname": "test",
    "fieldtype": "Select",
    "label": "Test",
-   "options": "\nMacular\nOptic Disk\nPachymetry\nAC Angel\nFundus Camera",
+   "options": "\nMacular\nOptic Disk\nPachymetry\nAC Angel\nFundus Camera\nIOP",
    "translatable": 1
   },
   {
    "fieldname": "eye",
    "fieldtype": "Select",
    "label": "Eye",
-   "options": "\nRight\nLeft\nBoth",
-   "translatable": 1
+   "options": "\n\u0627\u0644\u0639\u064a\u0646 \u0627\u0644\u064a\u0645\u0646\u0649\n\u0627\u0644\u0639\u064a\u0646 \u0627\u0644\u064a\u0633\u0631\u0649\n\u0643\u0644\u062a\u0627\u0647\u0645\u0627"
   },
   {
    "default": "0",
@@ -36,7 +35,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-12-19 22:13:24.406921",
+ "modified": "2023-12-22 23:49:25.908115",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "OCT Tests",

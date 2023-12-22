@@ -19,9 +19,8 @@
    "fieldname": "patient",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Patient",
-   "options": "Patient",
-   "reqd": 1
+   "label": "Patient Name",
+   "options": "Patients"
   },
   {
    "fieldname": "doctor",
@@ -49,7 +48,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-15 21:07:03.013188",
+ "modified": "2023-12-22 23:12:40.028995",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Emergency",

@@ -29,7 +29,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Patient Name",
-   "options": "Patient",
+   "options": "Patients",
    "reqd": 1
   },
   {
@@ -110,7 +110,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-26 21:58:00.942867",
+ "modified": "2023-12-22 23:10:13.949956",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Laboratory",

@@ -10,7 +10,7 @@ class OCT(Document):
 
 		
 	def oct_data(self):
-		patient = frappe.get_doc("Patient", self.patient)
+		patient = frappe.get_doc("Patients", self.patient)
 		self.age = patient.age
 		#total = self.total
 		total = 0
@@ -24,92 +24,108 @@ class OCT(Document):
         # Define prices based on conditions for each test
 			if patient_type == 1:
 				if test_type == "Macular":
-					if eye_condition == "Right" or eye_condition == "Left":
-						test_entry.price = 10  # Sample price
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 20000  # Sample price
 						#total = total+1000
-					elif eye_condition == "Both":
-						test_entry.price = 10  # Sample price
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 35000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 				# Add more conditions and prices for different scenarios for Macular test
 				elif test_type == "Optic Disk":
-					if eye_condition == "Right" or eye_condition == "Left":
-						test_entry.price = 15  # Sample price
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 20000  # Sample price
 						#total = total+1000
-					elif eye_condition == "Both":
-						test_entry.price = 20  # Sample price
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 35000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 			
 				elif test_type == "Pachymetry":
-					if eye_condition == "Right" or eye_condition == "Left":
-						test_entry.price = 20  # Sample price
-					elif eye_condition == "Both":
-						test_entry.price = 35  # Sample price
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 10000  # Sample price
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 10000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 
 				elif test_type == "AC Angel":
-					if eye_condition == "Right" or eye_condition == "Left":
-						test_entry.price = 20  # Sample price
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 15000  # Sample price
 						#total = total+1000
-					elif eye_condition == "Both":
-						test_entry.price = 35  # Sample price
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 20000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 				# Add more conditions and prices for different scenarios for Macular test
 				elif test_type == "Fundus Camera":
-					if eye_condition == "Right" or eye_condition == "Left":
-						test_entry.price = 10  # Sample price
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 10000 # Sample price
 						#total = total+1000
-					elif eye_condition == "Both":
-						test_entry.price = 10  # Sample price
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 15000  # Sample price
+					else:
+						test_entry.price = 0  # Sample price
+				elif test_type == "IOP":
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 10000 # Sample price
+						#total = total+1000
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 10000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 				else:
 					pass
 			else:
 				if test_type == "Macular":
-					if eye_condition == "Right" or eye_condition == "Left":
-						test_entry.price = 5  # Sample price
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 10000 # Sample price
 						#total = total+1000
-					elif eye_condition == "Both":
-						test_entry.price = 5  # Sample price
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 15000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 				# Add more conditions and prices for different scenarios for Macular test
 				elif test_type == "Optic Disk":
-					if eye_condition == "Right" or eye_condition == "Left":
-						test_entry.price = 10  # Sample price
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 10000  # Sample price
 						#total = total+1000
-					elif eye_condition == "Both":
-						test_entry.price = 15  # Sample price
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 15000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 			
 				elif test_type == "Pachymetry":
-					if eye_condition == "Right" or eye_condition == "Left":
-						test_entry.price = 10  # Sample price
-					elif eye_condition == "Both":
-						test_entry.price = 15  # Sample price
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 5000  # Sample price
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 5000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 
 				elif test_type == "AC Angel":
-					if eye_condition == "Right" or eye_condition == "Left":
-						test_entry.price = 10  # Sample price
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 10000  # Sample price
 						#total = total+1000
-					elif eye_condition == "Both":
-						test_entry.price = 15  # Sample price
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 15000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 				# Add more conditions and prices for different scenarios for Macular test
 				elif test_type == "Fundus Camera":
-					if eye_condition == "Right" or eye_condition == "Left":
-						test_entry.price = 5  # Sample price
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 5000  # Sample price
 						#total = total+1000
-					elif eye_condition == "Both":
-						test_entry.price = 5  # Sample price
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 5000  # Sample price
+					else:
+						test_entry.price = 0  # Sample price
+				elif test_type == "IOP":
+					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
+						test_entry.price = 5000 # Sample price
+						#total = total+1000
+					elif eye_condition == "كلتاهما":
+						test_entry.price = 5000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 				else:

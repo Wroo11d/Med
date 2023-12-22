@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{patient}-{date}-{#####}",
  "creation": "2023-12-08 21:12:29.188559",
  "default_view": "List",
  "doctype": "DocType",
@@ -25,8 +26,9 @@
   {
    "fieldname": "patient",
    "fieldtype": "Link",
-   "label": "Patient",
-   "options": "Patient",
+   "in_list_view": 1,
+   "label": "Patient Name",
+   "options": "Patients",
    "read_only": 1
   },
   {
@@ -102,10 +104,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-15 21:11:47.223704",
+ "modified": "2023-12-22 23:11:56.428638",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Invoice",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

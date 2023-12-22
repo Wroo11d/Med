@@ -13,7 +13,7 @@ $(document).on("startup", function () {
     else if (role === "Receptionist" && email !='Administrator'){
         console.log(currentUserRoles)  
         console.log(currentUserRoles[0])  
-        frappe.set_route("patient");
+        frappe.set_route("patients");
     }
     else if (role === "System Manager" && email !='Administrator'){
         console.log(currentUserRoles)  

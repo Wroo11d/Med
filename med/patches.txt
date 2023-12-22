@@ -1,6 +1,6 @@
-med.patches.insert_roles #re-run3
+med.patches.insert_roles #re-run4
 med.patches.insert_receptionist_permissions
 med.patches.insert_analyst_permissions
 med.patches.insert_dentist_permissions #re-run2
 med.patches.insert_emergency_permissions #re-run2
-med.patches.insert_myopic_permissions
+med.patches.insert_myopic_permissions #re-run

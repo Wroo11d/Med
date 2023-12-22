@@ -17,7 +17,7 @@ class Laboratory(model.document.Document):
 		#current_time = datetime.datetime.now().time()
 		current_datetime = frappe.utils.now_datetime()
 		current_time = current_datetime.time()
-		patient = frappe.get_doc("Patient", self.patient_name)
+		patient = frappe.get_doc("Patients", self.patient_name)
 		#test = frappe.get_doc("Tests", self.test)
 		#frappe.msgprint(f"patient{patient} and test is {test}")
 		self.age = patient.age
