@@ -22,3 +22,7 @@ class Dental(Document):
 			total = total + row.price
 		
 		self.custom_total = total
+		self.net_total= total
+		#self.net_total = test.price
+		if self.discount == 1:
+			self.net_total = total- self.discount_amount

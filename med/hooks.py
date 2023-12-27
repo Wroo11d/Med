@@ -228,9 +228,6 @@ fixtures = [
         "dt": "Property Setter", "filters": [["module", "=", "Medical"]]
     },
     {
-        "dt": "Workspace", "filters": [["module", "=", "Medical"]]
-    },
-    {
         "dt": "Dashboard Chart", "filters": [["module", "=", "Medical"]]
     },
     {
@@ -243,3 +240,7 @@ fixtures = [
 
 
 ]
+
+"""{
+        "dt": "Workspace", "filters": [["module", "=", "Medical"]]
+    },"""

@@ -6,7 +6,7 @@
   }
  ],
  "content": "[{\"id\":\"skaPyJTRWV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Laboratory Dashboard</span>\",\"col\":12}},{\"id\":\"tHpfpxUN1m\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u062e\u062a\u0628\u0631\u0627\u062a\",\"col\":3}},{\"id\":\"jdro127amY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u062a\u062d\u0627\u0644\u064a\u0644\",\"col\":3}},{\"id\":\"4DHu61FMiH\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"uSajV0bpOq\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0627\u0631\u0628\u0627\u062d \u0627\u0644\u0645\u062e\u062a\u0628\u0631\",\"col\":12}},{\"id\":\"_JeBCIlfAb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AmLsdLObvQ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0645\u062e\u062a\u0628\u0631\",\"col\":6}},{\"id\":\"I2iVuJByV4\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0641\u0648\u0627\u062a\u064a\u0631\",\"col\":6}}]",
- "creation": "2023-12-22 23:55:39.152870",
+ "creation": "2023-12-27 15:48:50.221339",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -17,7 +17,7 @@
  "is_hidden": 0,
  "label": "Laboratory Dashboard",
  "links": [],
- "modified": "2023-12-23 00:09:42.366169",
+ "modified": "2023-12-27 15:57:17.687602",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Laboratory Dashboard",
@@ -36,7 +36,14 @@
    "quick_list_filter": "[[\"Invoice\",\"test\",\"is\",\"set\",false]]"
   }
  ],
- "roles": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
  "sequence_id": 18.0,
  "shortcuts": [
   {

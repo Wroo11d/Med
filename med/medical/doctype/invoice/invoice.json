@@ -104,7 +104,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-22 23:11:56.428638",
+ "modified": "2023-12-27 13:26:01.702509",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Invoice",
@@ -125,7 +125,6 @@
   },
   {
    "create": 1,
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,
@@ -154,6 +153,17 @@
    "read": 1,
    "report": 1,
    "role": "Emergency",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Myopic",
    "share": 1,
    "write": 1
   }

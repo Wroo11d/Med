@@ -26,6 +26,10 @@ class Emergency(Document):
 			total = total + row.price
 		
 		self.custom_total = total
+		self.net_total= self.custom_total
+		#self.net_total = test.price
+		if self.discount == 1:
+			self.net_total = self.custom_total- self.discount_amount
 		
 		#self.append("custom_tests", {"price": "sister"})
 		#invoice = frappe.new_doc("Invoice")

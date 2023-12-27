@@ -12,7 +12,13 @@
   "patient",
   "age",
   "doctor",
+  "section_break_g7jqg",
+  "discount",
+  "discount_amount",
+  "section_break_o3rih",
   "total",
+  "net_total",
+  "section_break_qsnf1",
   "private",
   "amended_from"
  ],
@@ -61,12 +67,41 @@
    "options": "OCT",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "section_break_g7jqg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "discount",
+   "fieldtype": "Check",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "discount_amount",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Discount Amount"
+  },
+  {
+   "fieldname": "section_break_o3rih",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "net_total",
+   "fieldtype": "Data",
+   "label": "Net Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_qsnf1",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2023-12-22 23:48:52.601542",
+ "modified": "2023-12-27 13:02:17.529447",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "OCT",

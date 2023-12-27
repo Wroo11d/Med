@@ -12,7 +12,10 @@
   "column_break_ybgdu",
   "doctor",
   "section_break_kgxoy",
-  "procedure"
+  "procedure",
+  "discount_amount",
+  "price",
+  "net_total"
  ],
  "fields": [
   {
@@ -45,11 +48,29 @@
   {
    "fieldname": "section_break_kgxoy",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "discount_amount",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Discount Amount"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Int",
+   "label": "Price",
+   "read_only": 1
+  },
+  {
+   "fieldname": "net_total",
+   "fieldtype": "Int",
+   "label": "Net Total",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-22 23:14:17.873946",
+ "modified": "2023-12-27 12:44:13.285972",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Dental",

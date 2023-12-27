@@ -133,6 +133,11 @@ class OCT(Document):
 
 		for row in self.get("test"):
 			self.total = self.total+row.price
+
+			self.net_total= self.total+row.price
+		#self.net_total = test.price
+		if self.discount == 1:
+			self.net_total = self.total- self.discount_amount
 		#frappe.msgprint(total)
 
 			

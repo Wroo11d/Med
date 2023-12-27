@@ -12,7 +12,12 @@
   "column_break_bfluu",
   "doctor",
   "section_break_qeskg",
-  "procedure"
+  "procedure",
+  "section_break_ps9vu",
+  "discount",
+  "discount_amount",
+  "section_break_8knne",
+  "net_total"
  ],
  "fields": [
   {
@@ -44,11 +49,37 @@
   {
    "fieldname": "section_break_qeskg",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ps9vu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "discount",
+   "fieldtype": "Check",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "discount_amount",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Discount Amount"
+  },
+  {
+   "fieldname": "section_break_8knne",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "net_total",
+   "fieldtype": "Data",
+   "label": "Net Total",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-22 23:12:40.028995",
+ "modified": "2023-12-27 13:13:35.931962",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Emergency",
