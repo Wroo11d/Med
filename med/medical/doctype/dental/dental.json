@@ -50,6 +50,12 @@
    "fieldtype": "Section Break"
   },
   {
+    "default": "0",
+    "fieldname": "discount",
+    "fieldtype": "Check",
+    "label": "Discount"
+   },
+  {
    "fieldname": "discount_amount",
    "fieldtype": "Int",
    "hidden": 1,
