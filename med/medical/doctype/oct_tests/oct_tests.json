@@ -29,13 +29,14 @@
    "default": "0",
    "fieldname": "price",
    "fieldtype": "Int",
-   "label": "price"
+   "label": "price",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-12-22 23:49:25.908115",
+ "modified": "2023-12-31 09:10:32.830141",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "OCT Tests",

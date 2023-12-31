@@ -68,10 +68,10 @@ class OCT(Document):
 						test_entry.price = 0  # Sample price
 				elif test_type == "IOP":
 					if eye_condition == "العين اليمنى" or eye_condition == "العين اليسرى":
-						test_entry.price = 10000 # Sample price
+						test_entry.price = 5000 # Sample price
 						#total = total+1000
 					elif eye_condition == "كلتاهما":
-						test_entry.price = 10000  # Sample price
+						test_entry.price = 5000  # Sample price
 					else:
 						test_entry.price = 0  # Sample price
 				else:

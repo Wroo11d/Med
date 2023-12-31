@@ -23,12 +23,13 @@
    "fieldname": "price",
    "fieldtype": "Int",
    "in_list_view": 1,
-   "label": "Price"
+   "label": "Price",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-15 21:08:47.684650",
+ "modified": "2023-12-31 08:53:58.479881",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Emergency Procedure Prices",

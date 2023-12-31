@@ -1,0 +1,40 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-12-28 16:03:57.678384",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"columns\":[{\"label\":\"patient\",\"fieldname\":\"patient\",\"id\":\"patient\",\"name\":\"patient\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"payment\",\"fieldname\":\"payment\",\"id\":\"payment\",\"name\":\"payment\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"date\",\"fieldname\":\"date\",\"id\":\"date\",\"name\":\"date\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"time\",\"fieldname\":\"time\",\"id\":\"time\",\"name\":\"time\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"discount\",\"fieldname\":\"discount\",\"id\":\"discount\",\"name\":\"discount\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"price\",\"fieldname\":\"price\",\"id\":\"price\",\"name\":\"price\",\"width\":null,\"editable\":false,\"compareValue\":null},{\"label\":\"net_total\",\"fieldname\":\"net_total\",\"id\":\"net_total\",\"name\":\"net_total\",\"width\":null,\"editable\":false,\"compareValue\":null}],\"filters\":{}}",
+ "modified": "2023-12-28 16:07:26.213071",
+ "modified_by": "Administrator",
+ "module": "Medical",
+ "name": "Invoice",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Invoice",
+ "reference_report": "Test",
+ "report_name": "Invoice",
+ "report_type": "Custom Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Emergency"
+  },
+  {
+   "role": "Dentist"
+  },
+  {
+   "role": "Myopic"
+  },
+  {
+   "role": "Analyst"
+  }
+ ]
+}

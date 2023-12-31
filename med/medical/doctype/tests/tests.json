@@ -26,6 +26,7 @@
    "in_list_view": 1,
    "label": "Price",
    "non_negative": 1,
+   "read_only": 1,
    "reqd": 1
   },
   {
@@ -36,7 +37,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-26 21:42:11.490833",
+ "modified": "2023-12-31 08:55:13.732527",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Tests",
@@ -68,17 +69,13 @@
    "write": 1
   },
   {
-    "create": 1,
-    "delete": 1,
-    "email": 1,
-    "export": 1,
-    "print": 0,
-    "read": 1,
-    "report": 0,
-    "role": "Receptionist",
-    "share": 0,
-    "write": 0
-   }
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "read": 1,
+   "role": "Receptionist"
+  }
  ],
  "sort_field": "modified",
  "sort_order": "DESC",

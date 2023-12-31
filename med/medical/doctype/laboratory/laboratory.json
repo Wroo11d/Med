@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{patient_name}-{test}-DR-{doctor}-{#####}",
+ "autoname": "format:{patient_name}-{test}-{#####}",
  "creation": "2023-11-24 21:05:42.370001",
  "default_view": "List",
  "doctype": "DocType",
@@ -110,7 +110,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-22 23:10:13.949956",
+ "modified": "2023-12-31 08:52:30.695204",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Laboratory",
