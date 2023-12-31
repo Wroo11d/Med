@@ -12615,7 +12615,7 @@
   "is_hidden": 0,
   "label": "Dashboards",
   "links": [],
-  "modified": "2023-12-27 15:56:53.193979",
+  "modified": "2023-12-31 08:45:21.141767",
   "module": "Medical",
   "name": "Dashboards",
   "number_cards": [
@@ -12694,13 +12694,13 @@
   "sequence_id": 1.0,
   "shortcuts": [
    {
-    "color": "Grey",
+    "color": "Green",
     "doc_view": "List",
     "format": null,
     "icon": null,
     "kanban_board": null,
-    "label": "\u0627\u0644\u0645\u062e\u062a\u0628\u0631",
-    "link_to": "Laboratory",
+    "label": "\u0627\u0644\u0645\u0631\u0636\u0649",
+    "link_to": "Patients",
     "parent": "Dashboards",
     "parentfield": "shortcuts",
     "parenttype": "Workspace",
@@ -12710,13 +12710,13 @@
     "url": null
    },
    {
-    "color": "Green",
+    "color": "Grey",
     "doc_view": "List",
     "format": null,
     "icon": null,
     "kanban_board": null,
-    "label": "\u0627\u0644\u0645\u0631\u0636\u0649",
-    "link_to": "Patient",
+    "label": "\u0627\u0644\u0645\u062e\u062a\u0628\u0631",
+    "link_to": "Laboratory",
     "parent": "Dashboards",
     "parentfield": "shortcuts",
     "parenttype": "Workspace",
