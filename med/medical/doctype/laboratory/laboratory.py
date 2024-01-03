@@ -11,10 +11,11 @@ class Laboratory(model.document.Document):
 	def before_save(self):
 		self.patient_data()
 
-	#def on_validate
+	"""def before_validate(self):
+		self.test_price()
 		
 	
-	"""def test_price(self):
+	def test_price(self):
 		for row in self.get("custom_tests"):
 			test = frappe.get_doc("Tests", row.test)
 			row.price=test.price"""

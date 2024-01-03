@@ -12493,7 +12493,7 @@
     "parenttype": "Workspace"
    }
   ],
-  "content": "[{\"id\":\"oS9z2WMPy6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"uDUobP5qFL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u062e\u062a\u0628\u0631\",\"col\":3}},{\"id\":\"eBKgrG1hHc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u0631\u0636\u0649\",\"col\":3}},{\"id\":\"QeHFsgBlDy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0641\u0648\u0627\u062a\u064a\u0631\",\"col\":3}},{\"id\":\"EgPSY361FQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u0637\u0628\u0627\u0621\",\"col\":3}},{\"id\":\"hO5SxgZVEE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u0633\u0646\u0627\u0646\",\"col\":3}},{\"id\":\"batWfdSSux\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0637\u0648\u0627\u0631\u0626\",\"col\":3}},{\"id\":\"mTvlr5-YuC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0639\u064a\u0648\u0646\",\"col\":3}},{\"id\":\"MEDEm7Wisr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboards</span>\",\"col\":12}},{\"id\":\"e3VIFlGwsw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u0644\u0645\u0631\u0636\u0649\",\"col\":3}},{\"id\":\"bj0dcSPBq9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u0644\u0627\u0637\u0628\u0627\u0621\",\"col\":3}},{\"id\":\"wnBpLjK7r4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u0631\u0628\u0627\u062d \u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0645\u0627\u0636\u064a\",\"col\":3}},{\"id\":\"L4PnKlNvC0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u0631\u0628\u0627\u062d \u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u062d\u0627\u0644\u064a\",\"col\":3}},{\"id\":\"n4Ywi5A5Kz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Statistics<br></b></span>\",\"col\":12}},{\"id\":\"xv_Z6P3HGL\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0636\u0649\",\"col\":6}},{\"id\":\"0FCOTS4kTO\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0627\u0644\u0627\u0631\u0628\u0627\u062d\",\"col\":6}},{\"id\":\"mh6Wc22oQc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick List <br></b></span>\",\"col\":12}},{\"id\":\"iHExlinvad\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0645\u062e\u062a\u0628\u0631\",\"col\":4}},{\"id\":\"QMVfNBR1sz\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0645\u0631\u0636\u0649\",\"col\":4}},{\"id\":\"FmXI82mGfQ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0627\u0637\u0628\u0627\u0621\",\"col\":4}}]",
+  "content": "[{\"id\":\"oS9z2WMPy6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"uDUobP5qFL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u062e\u062a\u0628\u0631\",\"col\":3}},{\"id\":\"eBKgrG1hHc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u0631\u0636\u0649\",\"col\":3}},{\"id\":\"QeHFsgBlDy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0641\u0648\u0627\u062a\u064a\u0631\",\"col\":3}},{\"id\":\"EgPSY361FQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u0637\u0628\u0627\u0621\",\"col\":3}},{\"id\":\"hO5SxgZVEE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u0633\u0646\u0627\u0646\",\"col\":3}},{\"id\":\"batWfdSSux\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0637\u0648\u0627\u0631\u0626\",\"col\":3}},{\"id\":\"mTvlr5-YuC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0639\u064a\u0648\u0646\",\"col\":3}},{\"id\":\"qqPJVjAz0F\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u062a\u0642\u0627\u0631\u064a\u0631\",\"col\":3}},{\"id\":\"MEDEm7Wisr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboards</span>\",\"col\":12}},{\"id\":\"e3VIFlGwsw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u0644\u0645\u0631\u0636\u0649\",\"col\":3}},{\"id\":\"bj0dcSPBq9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u0644\u0627\u0637\u0628\u0627\u0621\",\"col\":3}},{\"id\":\"wnBpLjK7r4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u0631\u0628\u0627\u062d \u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0645\u0627\u0636\u064a\",\"col\":3}},{\"id\":\"L4PnKlNvC0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"\u0627\u0631\u0628\u0627\u062d \u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u062d\u0627\u0644\u064a\",\"col\":3}},{\"id\":\"n4Ywi5A5Kz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Statistics<br></b></span>\",\"col\":12}},{\"id\":\"xv_Z6P3HGL\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0639\u062f\u062f \u0627\u0644\u0645\u0631\u0636\u0649\",\"col\":6}},{\"id\":\"0FCOTS4kTO\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0627\u0644\u0627\u0631\u0628\u0627\u062d\",\"col\":6}},{\"id\":\"mh6Wc22oQc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick List <br></b></span>\",\"col\":12}},{\"id\":\"iHExlinvad\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0645\u062e\u062a\u0628\u0631\",\"col\":4}},{\"id\":\"QMVfNBR1sz\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0645\u0631\u0636\u0649\",\"col\":4}},{\"id\":\"FmXI82mGfQ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"\u0627\u0644\u0627\u0637\u0628\u0627\u0621\",\"col\":4}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -12503,7 +12503,7 @@
   "is_hidden": 0,
   "label": "Dashboards",
   "links": [],
-  "modified": "2023-12-31 08:45:21.141767",
+  "modified": "2024-01-03 10:32:09.128425",
   "module": "Medical",
   "name": "Dashboards",
   "number_cards": [
@@ -12581,6 +12581,22 @@
   ],
   "sequence_id": 1.0,
   "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "\u062a\u0642\u0627\u0631\u064a\u0631",
+    "link_to": null,
+    "parent": "Dashboards",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "URL",
+    "url": "http://127.0.0.1:8000/app/invoice/view/report"
+   },
    {
     "color": "Green",
     "doc_view": "List",

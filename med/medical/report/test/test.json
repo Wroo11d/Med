@@ -40,7 +40,8 @@
  ],
  "idx": 0,
  "is_standard": "Yes",
- "modified": "2023-12-28 15:56:25.812616",
+ "json": "{}",
+ "modified": "2024-01-03 09:47:47.203683",
  "modified_by": "Administrator",
  "module": "Medical",
  "name": "Test",
@@ -48,8 +49,9 @@
  "prepared_report": 0,
  "query": "SELECT patient, payment, date, time, discount, price, net_total\nFROM tabInvoice;",
  "ref_doctype": "Invoice",
+ "reference_report": "Invoice",
  "report_name": "Test",
- "report_type": "Query Report",
+ "report_type": "Report Builder",
  "roles": [
   {
    "role": "System Manager"
