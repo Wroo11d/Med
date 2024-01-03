@@ -11,6 +11,13 @@ class Laboratory(model.document.Document):
 	def before_save(self):
 		self.patient_data()
 
+	#def on_validate
+		
+	
+	"""def test_price(self):
+		for row in self.get("custom_tests"):
+			test = frappe.get_doc("Tests", row.test)
+			row.price=test.price"""
 
 	# This function handles the proration logic for plans within a given document.
 	def patient_data(self):
@@ -34,7 +41,6 @@ class Laboratory(model.document.Document):
 		
 		self.total_price = total
 		self.net_total= total
-		print(self.net_total)
 		#self.net_total = test.price
 		if self.discount == 1:
 			self.net_total = self.total_price - self.discount_amount
@@ -51,7 +57,7 @@ class Laboratory(model.document.Document):
 			invoice.append("custom_doctors", {"doctor": rowi.doctor,
                                       })
 		"""invoice.discount = self.discount
-		invoice.price = self.total_price
+		invoice.custom_totalprice = self.total_price
 		invoice.net_total = self.net_total"""
 		#invoice.doctor = self.doctor
 		invoice.insert()
